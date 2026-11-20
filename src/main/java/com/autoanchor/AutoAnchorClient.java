@@ -23,7 +23,7 @@ import org.lwjgl.glfw.GLFW;
 
 import java.util.Random;
 
-public class TotemDetonate implements ClientModInitializer {
+public class AutoAnchorClient implements ClientModInitializer {
 
     private static int minDelay = 1;
     private static int maxDelay = 3;
@@ -146,4 +146,4 @@ public class TotemDetonate implements ClientModInitializer {
         }
         return -1;
     }
-            }
+    }       
